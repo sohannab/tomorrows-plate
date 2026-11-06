@@ -1,0 +1,180 @@
+dish_id,ingredient,component_id,form_at_close
+D01-R,pizza dough,C-PIZZA-DOUGH,dough
+D01-R,sea salt,RAW-AT-SERVICE,raw_at_service
+D01-R,sicilian oregano (dried),RAW-AT-SERVICE,raw_at_service
+D01-R,volpi olive oil,RAW-AT-SERVICE,raw_at_service
+D02-R,cerignola olives,C-CERIGNOLA-DRESSED,garnish
+D02-R,chili oil,C-CERIGNOLA-DRESSED,garnish
+D02-R,fennel pollen,C-CERIGNOLA-DRESSED,garnish
+D02-R,lemon zest,C-CERIGNOLA-DRESSED,garnish
+D03-R,oyama fennel salami,C-SALAMI-SLICED,garnish
+D03-R,pickled fennel seeds,C-PICKLED-FENNEL-SEED,garnish
+D03-R,marinated artichokes,C-MARINATED-ARTICHOKES,garnish
+D03-R,crackers,C-CRACKERS,garnish
+D04-R,lingcod (salted),C-BACCALA-MANTECATO,sauce_dressing
+D04-R,olive oil,C-BACCALA-MANTECATO,sauce_dressing
+D04-R,garlic,C-BACCALA-MANTECATO,sauce_dressing
+D04-R,radicchio,C-RADICCHIO-PREPPED,raw_prepped
+D04-R,potato chips,C-POTATO-CHIPS,garnish
+D05-R,scallops,C-SCALLOPS-PORTIONED,raw_prepped
+D05-R,serrano chili,C-SERRANO-SLICED,raw_prepped
+D05-R,cherry tomatoes,C-CHERRY-TOMATO-CUT,raw_prepped
+D05-R,buttermilk vinaigrette,C-BUTTERMILK-VIN,sauce_dressing
+D06-S,"arancini (red kuri squash risotto, breaded)",C-ARANCINI-FORMED,cooked
+D06-S,mint,C-MINT-PICKED,raw_prepped
+D06-S,saffron aioli,C-SAFFRON-AIOLI,sauce_dressing
+D06-L,"arancini (red kuri squash risotto, breaded)",C-ARANCINI-FORMED,cooked
+D06-L,mint,C-MINT-PICKED,raw_prepped
+D06-L,saffron aioli,C-SAFFRON-AIOLI,sauce_dressing
+D07-R,semolina parker house rolls,C-PARKER-ROLLS,finished_portion
+D07-R,sesame seeds,C-PARKER-ROLLS,finished_portion
+D07-R,pecorino butter,C-PECORINO-BUTTER,sauce_dressing
+D08-R,pork and beef meatballs,C-MEATBALLS-ARRABBIATA,finished_portion
+D08-R,arrabbiata,C-MEATBALLS-ARRABBIATA,finished_portion
+D08-R,warm spices,C-MEATBALLS-ARRABBIATA,finished_portion
+D08-R,sultanas,C-MEATBALLS-ARRABBIATA,finished_portion
+D08-R,mint,C-MINT-PICKED,raw_prepped
+D09-R,scallops,C-SCALLOPS-PORTIONED,raw_prepped
+D09-R,'nduja vinaigrette,C-NDUJA-VIN,sauce_dressing
+D09-R,chili agliata,C-CHILI-AGLIATA,sauce_dressing
+D09-R,braised fennel,C-BRAISED-FENNEL,cooked
+D10-R,heirloom tomatoes,RAW-AT-SERVICE,raw_at_service
+D10-R,ricotta salata,RAW-AT-SERVICE,raw_at_service
+D10-R,basil,C-BASIL-PICKED,raw_prepped
+D10-R,black pepper,RAW-AT-SERVICE,raw_at_service
+D10-R,sherry vinaigrette,C-SHERRY-VIN,sauce_dressing
+D11-R,fall chicories,C-CHICORIES-WASHED,raw_prepped
+D11-R,macedonian feta,RAW-AT-SERVICE,raw_at_service
+D11-R,walnuts,C-WALNUTS-TOASTED,garnish
+D11-R,roasted pears,C-ROASTED-PEARS,cooked
+D11-R,shallot vinaigrette,C-SHALLOT-VIN,sauce_dressing
+D12-R,broccolini,C-BROCCOLINI-BLANCHED,cooked
+D12-R,garlic pangrattato,C-PANGRATTATO,garnish
+D12-R,piquillo vinaigrette,C-PIQUILLO-VIN,sauce_dressing
+D13-R,pizza dough,C-PIZZA-DOUGH,dough
+D13-R,pomodoro,C-POMODORO,sauce_dressing
+D13-R,fior di latte,RAW-AT-SERVICE,raw_at_service
+D13-R,basil,C-BASIL-PICKED,raw_prepped
+D13-R,olive oil,RAW-AT-SERVICE,raw_at_service
+D14-R,pizza dough,C-PIZZA-DOUGH,dough
+D14-R,marinated artichokes,C-MARINATED-ARTICHOKES,garnish
+D14-R,zucchini,C-ZUCCHINI-SLICED,raw_prepped
+D14-R,green olives,RAW-AT-SERVICE,raw_at_service
+D14-R,sun-dried tomatoes,RAW-AT-SERVICE,raw_at_service
+D14-R,olive oil,RAW-AT-SERVICE,raw_at_service
+D15-R,pizza dough,C-PIZZA-DOUGH,dough
+D15-R,roasted mushrooms,C-ROASTED-MUSHROOMS,cooked
+D15-R,salsa bianca,C-SALSA-BIANCA,sauce_dressing
+D15-R,parsley salsa verde,C-SALSA-VERDE,sauce_dressing
+D16-R,pizza dough,C-PIZZA-DOUGH,dough
+D16-R,manila clams,C-MANILA-CLAMS,raw_prepped
+D16-R,guanciale,C-GUANCIALE-DICED,raw_prepped
+D16-R,salsa bianca,C-SALSA-BIANCA,sauce_dressing
+D16-R,parsley,C-PARSLEY-PICKED,raw_prepped
+D16-R,lemon,RAW-AT-SERVICE,raw_at_service
+D17-R,pizza dough,C-PIZZA-DOUGH,dough
+D17-R,pomodoro,C-POMODORO,sauce_dressing
+D17-R,pepperone,C-PEPPERONE-SLICED,garnish
+D17-R,hot honey,C-HOT-HONEY,sauce_dressing
+D17-R,confit garlic,C-CONFIT-GARLIC,cooked
+D17-R,sesame seeds,RAW-AT-SERVICE,raw_at_service
+D18-R,pizza dough,C-PIZZA-DOUGH,dough
+D18-R,pomodoro,C-POMODORO,sauce_dressing
+D18-R,capocollo,C-CAPOCOLLO-SLICED,garnish
+D18-R,green olives,RAW-AT-SERVICE,raw_at_service
+D18-R,roasted peppers,C-ROASTED-PEPPERS,cooked
+D18-R,red onion,C-RED-ONION-SLICED,raw_prepped
+D19-S,spaghetti (dried),RAW-AT-SERVICE,raw_at_service
+D19-S,manila clams,C-MANILA-CLAMS,raw_prepped
+D19-S,bottarga,RAW-AT-SERVICE,raw_at_service
+D19-S,pepperoncini,RAW-AT-SERVICE,raw_at_service
+D19-S,parsley,C-PARSLEY-PICKED,raw_prepped
+D19-S,garlic,RAW-AT-SERVICE,raw_at_service
+D19-S,white wine,RAW-AT-SERVICE,raw_at_service
+D19-S,olive oil,RAW-AT-SERVICE,raw_at_service
+D19-L,spaghetti (dried),RAW-AT-SERVICE,raw_at_service
+D19-L,manila clams,C-MANILA-CLAMS,raw_prepped
+D19-L,bottarga,RAW-AT-SERVICE,raw_at_service
+D19-L,pepperoncini,RAW-AT-SERVICE,raw_at_service
+D19-L,parsley,C-PARSLEY-PICKED,raw_prepped
+D19-L,garlic,RAW-AT-SERVICE,raw_at_service
+D19-L,white wine,RAW-AT-SERVICE,raw_at_service
+D19-L,olive oil,RAW-AT-SERVICE,raw_at_service
+D20-S,fresh calabreselli,C-PASTA-CALABRESELLI,dough
+D20-S,vodka sauce,C-VODKA-SAUCE,sauce_dressing
+D20-S,whipped ricotta,C-WHIPPED-RICOTTA,sauce_dressing
+D20-S,peperoncini,RAW-AT-SERVICE,raw_at_service
+D20-S,garlic pangrattato,C-PANGRATTATO,garnish
+D20-L,fresh calabreselli,C-PASTA-CALABRESELLI,dough
+D20-L,vodka sauce,C-VODKA-SAUCE,sauce_dressing
+D20-L,whipped ricotta,C-WHIPPED-RICOTTA,sauce_dressing
+D20-L,peperoncini,RAW-AT-SERVICE,raw_at_service
+D20-L,garlic pangrattato,C-PANGRATTATO,garnish
+D21-S,rigatoni (dried),RAW-AT-SERVICE,raw_at_service
+D21-S,10 year aged cheddar,C-CHEDDAR-GRATED,raw_prepped
+D21-S,black pepper,RAW-AT-SERVICE,raw_at_service
+D21-S,butter,RAW-AT-SERVICE,raw_at_service
+D21-S,roasted jalapeño,C-ROASTED-JALAPENO,cooked
+D21-S,scallion,C-SCALLION-SLICED,raw_prepped
+D21-L,rigatoni (dried),RAW-AT-SERVICE,raw_at_service
+D21-L,10 year aged cheddar,C-CHEDDAR-GRATED,raw_prepped
+D21-L,black pepper,RAW-AT-SERVICE,raw_at_service
+D21-L,butter,RAW-AT-SERVICE,raw_at_service
+D21-L,roasted jalapeño,C-ROASTED-JALAPENO,cooked
+D21-L,scallion,C-SCALLION-SLICED,raw_prepped
+D22-S,par-cooked risotto,C-RISOTTO-BASE,cooked
+D22-S,nova scotia lobster tail,C-LOBSTER-TAIL,raw_prepped
+D22-S,red kuri squash (roasted),C-ROAST-KURI-SQUASH,cooked
+D22-S,saffron shellfish stock,C-SHELLFISH-STOCK,cooked
+D22-S,butter,RAW-AT-SERVICE,raw_at_service
+D22-L,par-cooked risotto,C-RISOTTO-BASE,cooked
+D22-L,nova scotia lobster tail,C-LOBSTER-TAIL,raw_prepped
+D22-L,red kuri squash (roasted),C-ROAST-KURI-SQUASH,cooked
+D22-L,saffron shellfish stock,C-SHELLFISH-STOCK,cooked
+D22-L,butter,RAW-AT-SERVICE,raw_at_service
+D23-R,fresh stracci,C-PASTA-STRACCI,dough
+D23-R,lamb ragu,C-LAMB-RAGU,cooked
+D23-R,taggiasche olives,RAW-AT-SERVICE,raw_at_service
+D23-R,pine nuts,C-PINE-NUTS-TOASTED,garnish
+D23-R,pecorino canestrato,RAW-AT-SERVICE,raw_at_service
+D24-R,iberico pork chop,C-PORK-CHOP-PORTIONED,raw_prepped
+D24-R,dandelion greens,C-DANDELION-WASHED,raw_prepped
+D24-R,guanciale,C-GUANCIALE-DICED,raw_prepped
+D24-R,apple,RAW-AT-SERVICE,raw_at_service
+D24-R,fennel,C-FENNEL-SHAVED,raw_prepped
+D25-R,"half chicken, deboned",C-CHICKEN-MARINATED,raw_prepped
+D25-R,artichoke tapenade,C-ARTICHOKE-TAPENADE,sauce_dressing
+D25-R,chicories,C-CHICORIES-WASHED,raw_prepped
+D25-R,salsa nera,C-SALSA-NERA,sauce_dressing
+D26-R,wagyu zabuton,C-WAGYU-PORTIONED,raw_prepped
+D26-R,king oyster and maitake,C-KING-OYSTER-MAITAKE,raw_prepped
+D26-R,pickled chanterelles,C-PICKLED-CHANTERELLES,garnish
+D26-R,fresh oregano,RAW-AT-SERVICE,raw_at_service
+D27-R,braised octopus,C-OCTOPUS-BRAISED,cooked
+D27-R,pomegranate seeds,C-POMEGRANATE-SEEDS,raw_prepped
+D27-R,saffron couscous,C-SAFFRON-COUSCOUS,cooked
+D27-R,ceci,C-CECI-COOKED,cooked
+D27-R,mint,C-MINT-PICKED,raw_prepped
+D27-R,citrus segments,C-CITRUS-SEGMENTS,raw_prepped
+D28-R,whole branzino,C-BRANZINO-CLEANED,raw_prepped
+D28-R,fennel,C-FENNEL-SHAVED,raw_prepped
+D28-R,caper salmoriglio,C-CAPER-SALMORIGLIO,sauce_dressing
+D29-R,bc rockfish fillet,C-ROCKFISH-PORTIONED,raw_prepped
+D29-R,purgatory beans,C-PURGATORY-BEANS,cooked
+D29-R,marinated artichokes,C-MARINATED-ARTICHOKES,garnish
+D29-R,spinach,C-SPINACH-WASHED,raw_prepped
+D29-R,volpi olive oil,RAW-AT-SERVICE,raw_at_service
+D30-R,tiramisu cheesecake,C-TIRAMISU-CHEESECAKE,finished_portion
+D30-R,cocoa,RAW-AT-SERVICE,raw_at_service
+D30-R,espresso,C-TIRAMISU-CHEESECAKE,finished_portion
+D31-R,chocolate torta,C-TORTA-CIOCCOLATO,finished_portion
+D31-R,muscovado crema,C-MUSCOVADO-CREMA,sauce_dressing
+D32-R,cassis and blackberry semifreddo,C-SEMIFREDDO-CASSIS,finished_portion
+D32-R,marsala crema,C-MARSALA-CREMA,sauce_dressing
+D33-R,spiced apple torta,C-APPLE-TORTA,finished_portion
+D33-R,caramel,C-CARAMEL,sauce_dressing
+D34-R,"gelato, daily flavour",C-GELATO-DAILY,finished_portion
+D35-R,vanilla gelato,C-GELATO-VANILLA,finished_portion
+D35-R,volpi olive oil,RAW-AT-SERVICE,raw_at_service
+D35-R,amaro syrup,C-AMARO-SYRUP,sauce_dressing
+D35-R,honeycomb,C-HONEYCOMB,garnish

@@ -1,0 +1,90 @@
+component_id,component_name,form,storage,count_unit,default_shelf_life_days,freezable,used_in_dishes
+C-PIZZA-DOUGH,Pizza dough balls (also used for puccia),dough,walk_in,ball,3,yes,D01;D13;D14;D15;D16;D17;D18
+C-PASTA-CALABRESELLI,Fresh calabreselli pasta,dough,walk_in,g,2,yes,D20
+C-PASTA-STRACCI,Fresh stracci pasta sheets,dough,walk_in,g,2,yes,D23
+C-PARKER-ROLLS,"Semolina parker house rolls, baked",finished_portion,dry_store,pc,2,yes,D07
+C-MEATBALLS-ARRABBIATA,Meatballs braised in arrabbiata (with warm spices and sultanas),finished_portion,walk_in,portion,4,yes,D08
+C-TIRAMISU-CHEESECAKE,Tiramisu cheesecake,finished_portion,walk_in,slice,4,yes,D30
+C-TORTA-CIOCCOLATO,Torta al cioccolato fondente,finished_portion,walk_in,slice,4,yes,D31
+C-SEMIFREDDO-CASSIS,Cassis and blackberry semifreddo,finished_portion,freezer,slice,14,yes,D32
+C-APPLE-TORTA,Spiced apple torta,finished_portion,walk_in,slice,3,yes,D33
+C-GELATO-VANILLA,Vanilla gelato,finished_portion,freezer,scoop,14,yes,D35
+C-GELATO-DAILY,Daily gelato flavours,finished_portion,freezer,scoop,14,yes,D34
+C-ARANCINI-FORMED,"Arancini, formed and breaded (red kuri squash risotto), not yet fried",cooked,walk_in,pc,2,yes,D06
+C-RISOTTO-BASE,Par-cooked risotto base,cooked,walk_in,g,2,no,D22
+C-ROAST-KURI-SQUASH,Roasted red kuri squash,cooked,walk_in,g,4,yes,D22
+C-SHELLFISH-STOCK,Shellfish and saffron stock,cooked,walk_in,ml,3,yes,D22
+C-LAMB-RAGU,Lamb ragu,cooked,walk_in,g,4,yes,D23
+C-BRAISED-FENNEL,Braised fennel,cooked,walk_in,g,4,no,D09
+C-ROASTED-PEARS,Roasted pears,cooked,walk_in,g,3,no,D11
+C-BROCCOLINI-BLANCHED,Blanched broccolini,cooked,walk_in,g,3,no,D12
+C-ROASTED-MUSHROOMS,Roasted mushrooms (pizza),cooked,walk_in,g,3,no,D15
+C-CONFIT-GARLIC,Confit garlic cloves in oil,cooked,walk_in,g,4,yes,D17
+C-ROASTED-PEPPERS,Roasted peppers,cooked,walk_in,g,5,yes,D18
+C-ROASTED-JALAPENO,Roasted jalapeño,cooked,walk_in,g,4,yes,D21
+C-OCTOPUS-BRAISED,"Braised octopus, ready to chargrill",cooked,walk_in,portion,3,yes,D27
+C-SAFFRON-COUSCOUS,Saffron couscous,cooked,walk_in,g,3,no,D27
+C-CECI-COOKED,Cooked ceci (chickpeas),cooked,walk_in,g,4,yes,D27
+C-PURGATORY-BEANS,Purgatory beans,cooked,walk_in,g,4,yes,D29
+C-POMODORO,Pomodoro (pizza sauce),sauce_dressing,walk_in,g,5,yes,D13;D17;D18
+C-VODKA-SAUCE,Vodka sauce,sauce_dressing,walk_in,g,4,no,D20
+C-SALSA-BIANCA,Salsa bianca,sauce_dressing,walk_in,g,3,no,D15;D16
+C-WHIPPED-RICOTTA,Whipped ricotta,sauce_dressing,walk_in,g,4,no,D20
+C-SAFFRON-AIOLI,Saffron aioli,sauce_dressing,walk_in,g,3,no,D06
+C-BUTTERMILK-VIN,Buttermilk vinaigrette,sauce_dressing,walk_in,ml,4,no,D05
+C-NDUJA-VIN,'Nduja vinaigrette,sauce_dressing,walk_in,ml,5,yes,D09
+C-CHILI-AGLIATA,Chili agliata,sauce_dressing,walk_in,g,3,no,D09
+C-SHERRY-VIN,Sherry vinaigrette,sauce_dressing,walk_in,ml,7,no,D10
+C-SHALLOT-VIN,Shallot vinaigrette,sauce_dressing,walk_in,ml,5,no,D11
+C-PIQUILLO-VIN,Piquillo vinaigrette,sauce_dressing,walk_in,ml,5,yes,D12
+C-SALSA-VERDE,Parsley salsa verde,sauce_dressing,walk_in,g,3,no,D15
+C-HOT-HONEY,Hot honey,sauce_dressing,dry_store,ml,30,no,D17
+C-PECORINO-BUTTER,Pecorino butter,sauce_dressing,walk_in,g,7,yes,D07
+C-BACCALA-MANTECATO,Baccalà mantecato (whipped lingcod),sauce_dressing,walk_in,g,3,no,D04
+C-ARTICHOKE-TAPENADE,Artichoke tapenade,sauce_dressing,walk_in,g,5,yes,D25
+C-SALSA-NERA,Salsa nera,sauce_dressing,walk_in,g,7,yes,D25
+C-CAPER-SALMORIGLIO,Caper salmoriglio,sauce_dressing,walk_in,ml,4,no,D28
+C-MUSCOVADO-CREMA,Muscovado crema,sauce_dressing,walk_in,ml,3,no,D31
+C-MARSALA-CREMA,Marsala crema,sauce_dressing,walk_in,ml,3,no,D32
+C-CARAMEL,Caramel sauce,sauce_dressing,walk_in,ml,14,no,D33
+C-AMARO-SYRUP,Amaro syrup,sauce_dressing,dry_store,ml,30,no,D35
+C-SCALLOPS-PORTIONED,"Scallops, cleaned and portioned (crudo grade)",raw_prepped,walk_in,pc,1,yes,D05;D09
+C-MANILA-CLAMS,"Manila clams, purged (live)",raw_prepped,live_on_ice,g,2,no,D16;D19
+C-LOBSTER-TAIL,Nova Scotia lobster tails,raw_prepped,walk_in,pc,1,yes,D22
+C-PORK-CHOP-PORTIONED,"Iberico pork chops, portioned",raw_prepped,walk_in,pc,3,yes,D24
+C-CHICKEN-MARINATED,"Half chickens, deboned and marinated (mattone)",raw_prepped,walk_in,portion,2,yes,D25
+C-WAGYU-PORTIONED,"Wagyu zabuton, portioned",raw_prepped,walk_in,g,3,yes,D26
+C-BRANZINO-CLEANED,"Whole branzino, scaled and gutted",raw_prepped,walk_in,pc,1,yes,D28
+C-ROCKFISH-PORTIONED,"BC rockfish, portioned",raw_prepped,walk_in,portion,1,yes,D29
+C-GUANCIALE-DICED,"Guanciale, diced",raw_prepped,walk_in,g,7,yes,D16;D24
+C-KING-OYSTER-MAITAKE,"King oyster and maitake, cleaned and cut",raw_prepped,walk_in,g,3,no,D26
+C-CHEDDAR-GRATED,"10-year aged cheddar, grated",raw_prepped,walk_in,g,7,yes,D21
+C-RADICCHIO-PREPPED,"Radicchio leaves, washed",raw_prepped,walk_in,g,3,no,D04
+C-CHICORIES-WASHED,"Fall chicories, washed",raw_prepped,walk_in,g,3,no,D11;D25
+C-DANDELION-WASHED,"Dandelion greens, washed",raw_prepped,walk_in,g,2,no,D24
+C-SPINACH-WASHED,"Spinach, washed",raw_prepped,walk_in,g,2,no,D29
+C-FENNEL-SHAVED,"Fennel, shaved and held in acidulated water",raw_prepped,walk_in,g,2,no,D24;D28
+C-ZUCCHINI-SLICED,"Zucchini, sliced",raw_prepped,walk_in,g,2,no,D14
+C-RED-ONION-SLICED,"Red onion, sliced",raw_prepped,walk_in,g,3,no,D18
+C-SCALLION-SLICED,"Scallion, sliced",raw_prepped,walk_in,g,2,no,D21
+C-SERRANO-SLICED,"Serrano chili, sliced",raw_prepped,walk_in,g,2,no,D05
+C-CHERRY-TOMATO-CUT,"Cherry tomatoes, halved",raw_prepped,walk_in,g,2,no,D05
+C-POMEGRANATE-SEEDS,Pomegranate seeds,raw_prepped,walk_in,g,4,yes,D27
+C-CITRUS-SEGMENTS,Citrus segments,raw_prepped,walk_in,g,2,no,D27
+C-MINT-PICKED,"Mint, picked",raw_prepped,walk_in,g,2,no,D06;D08;D27
+C-BASIL-PICKED,"Basil, picked",raw_prepped,walk_in,g,2,no,D10;D13
+C-PARSLEY-PICKED,"Parsley, picked and chopped",raw_prepped,walk_in,g,2,no,D16;D19
+C-CERIGNOLA-DRESSED,"Cerignola olives dressed with chili oil, fennel pollen and lemon zest",garnish,walk_in,g,7,no,D02
+C-SALAMI-SLICED,"Oyama fennel salami, sliced",garnish,walk_in,g,3,no,D03
+C-PICKLED-FENNEL-SEED,Pickled fennel seeds,garnish,walk_in,g,30,no,D03
+C-MARINATED-ARTICHOKES,Marinated artichokes,garnish,walk_in,g,7,no,D03;D14;D29
+C-CRACKERS,House crackers,garnish,dry_store,g,5,no,D03
+C-POTATO-CHIPS,House potato chips,garnish,dry_store,g,2,no,D04
+C-PANGRATTATO,Garlic pangrattato,garnish,dry_store,g,5,no,D12;D20
+C-WALNUTS-TOASTED,Toasted walnuts,garnish,dry_store,g,14,no,D11
+C-PINE-NUTS-TOASTED,Toasted pine nuts,garnish,dry_store,g,14,no,D23
+C-PEPPERONE-SLICED,"Pepperone, sliced",garnish,walk_in,g,5,no,D17
+C-CAPOCOLLO-SLICED,"Capocollo, sliced",garnish,walk_in,g,3,no,D18
+C-PICKLED-CHANTERELLES,Pickled chanterelles,garnish,walk_in,g,14,no,D26
+C-HONEYCOMB,Honeycomb candy,garnish,dry_store,g,7,no,D35
+RAW-AT-SERVICE,"Raw at service: used straight from stock, not prepped ahead (not a leftover)",raw_at_service,stock,,,,D01;D10;D11;D13;D14;D16;D17;D18;D19;D20;D21;D22;D23;D24;D26;D29;D30;D35

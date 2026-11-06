@@ -1,35 +1,86 @@
-# Tomorrow's Plate — Elio Volpe dinner datasets
+# Tomorrow's Plate
 
-Built from the Elio Volpe dinner menu (eliovolpe.com/menu-dinner) to the ERD in the Leftover Map.
-35 dishes → 40 dish/size rows, 179 ingredient lines, 88 components.
+**Turn tonight's leftovers into tomorrow's plan.** A kitchen dashboard that shows what is about to go bad, what to run as a special, what to feed the staff, and what to stop over-prepping.
 
-## Files and keys
-| File | Grain | Key | Joins |
-|---|---|---|---|
-| elio_volpe_dinner_ingredients.csv | dish × size × ingredient | dish_id + ingredient | menu_setup.dish_id |
-| menu_setup.csv | dish × size | dish_id | base_dish_id groups sizes |
-| dish_components.csv | dish × component | dish_id + component_id | menu_setup, components |
-| components.csv | anything that can be left over at close | component_id | hub table |
-| ingredient_forms.csv | 1:1 with ingredient lines | dish_id + ingredient | ingredient lines, components (RAW-AT-SERVICE = used straight from stock) |
-| leftover_log_template.csv | what cooks fill in at close | log_date + component_id | components |
-| leftover_log_sample.csv | a sample close for 2026-11-04, for testing the agent | | components |
+**[Try the live app]([TODO: paste your Streamlit link])**
 
-## IDs
-- dish_id = base id + size: `D19-S` / `D19-L` (two prices on the menu), `D01-R` (one size).
-- component_id is a readable slug, e.g. `C-LAMB-RAGU`.
+[TODO: add a screenshot of the Home tab here, for example `![Home dashboard](assets/home.png)`]
 
-## Value lists
-- service_style: made_ahead, made_to_order, assembled_cold
-- leftover_logged_as: finished_portions (made ahead) or components
-- form / form_at_close: finished_portion, cooked, sauce_dressing, dough, raw_prepped, garnish; raw_at_service is used for the RAW-AT-SERVICE label
-- storage: walk_in, freezer, dry_store, live_on_ice
-- role: base, protein, sauce, dressing, side, topping, garnish, crunch, finish, spread, vehicle, dessert, seasoning, cooking_medium
-- ingredient_category: meat, poultry, seafood, cured_meat, dairy, egg, produce, herb, grain, nut_seed, spice, pantry, oil_fat, sweetener, alcohol
+## The problem
 
-## For the agent
-- Leftover log: expires_on = made_on + default_shelf_life_days; days_until_expired = expires_on − log_date. Cooks fill in the first five columns; the last two are calculated. 1 = must be used at tomorrow's family meal; 0 or less = expired, discard. Use the lowest first.
-- RAW-AT-SERVICE is a label, not a leftover: skip it when reading the leftover log.
-- freezable = yes is an option for anything not used tomorrow.
+Restaurants prep ahead, so they close most nights with sauces, doughs and cooked items left over. Cooks usually know what is sitting in the walk-in, but that knowledge rarely turns into a decision. Items expire, and the same over-prep happens again the following week.
 
-## Assumptions to check with the kitchen
-Quantities per portion, shelf lives and which items are prepped ahead are estimates based on the menu wording and common practice, not house recipes. Shelf lives are conservative defaults; replace them with your own policy.
+Tomorrow's Plate tracks leftovers at the component level, such as a lamb ragu or a pizza dough, not just finished dishes. One component often feeds several menu items, so that is where a kitchen has the most options for using it up.
+
+## What it does
+
+- **Daily special:** suggests dishes that use up items with more than 2 days left, and shows the menu sales each one could bring in.
+- **Prep less:** finds items left over again and again, on the coming weekday or across the last 2 to 4 weeks, and recommends how much less to prep. A day-by-day strip shows the pattern behind each recommendation.
+- **Going bad soon:** a table of everything with 1 to 2 days left, filterable by ingredient form.
+- **Staff meal:** five options built from what is about to expire, with the portions each could make and what is still needed.
+- **Menu:** every dish and its components, by menu section.
+- **Leftovers:** current stock by ingredient form. Clicking an ingredient shows each batch, its days left and any note.
+- **Log:** where cooks record leftovers at close, with amounts, made dates and notes. An ingredient can have several entries for batches made on different dates.
+
+## How it works
+
+The app is built on a dataset our team created from the Elio Volpe dinner menu: 35 dishes, 88 components and 179 ingredient lines, linked so that any leftover can be traced to the dishes it could go into.
+
+| Feature | Logic |
+|---|---|
+| Days left | Made date plus the component's default shelf life, counted from the latest close. Expired batches drop off. |
+| Staff meal and special | Each dish is scored by the items it would use up, and items with fewer days left count for more. A dish is only suggested if its main components are in stock, and portions are capped by the scarcest component. |
+| Prep less | An item is flagged if it was left over on at least 75% of recent matching weekdays, or on at least 70% of all days. The suggested cut is the smallest amount left over in that period, so it stays conservative. |
+| Menu sales | Listed menu price multiplied by the portions the dish could make. |
+
+## Built with
+
+Python, pandas and Streamlit, with custom HTML and CSS for the cards and the leftover strips.
+
+## About the data
+
+- **The history is simulated.** The Prep less stats use made-up close logs for Oct 1 to Nov 3, 2026, with patterns planted to show how the feature works. They are not real kitchen records.
+- **Quantities are estimates.** Portion sizes, shelf lives and prep assumptions are based on the menu wording and common practice, not house recipes.
+- **Sales are not profit.** The figures use listed menu prices. The dataset has no food costs, so the app cannot show margins or waste saved.
+- **Recommendations are rule-based.** They match leftovers to existing menu dishes. No AI model runs in this version.
+
+## How the project evolved
+
+Tomorrow's Plate started as a prototype by Algorithm Avengers: a planning model that forecast demand using patterns from the Food Demand Forecasting dataset on Kaggle, then optimized prep quantities. That model is not part of this version. This app focuses on the day-to-day tool a cook would use, built around a more detailed component-level dataset.
+
+## What I would build next
+
+- Save logs to a database, so entries are kept permanently. They currently live in a file that the free host wipes on restart.
+- Replace the simulated history with real close logs.
+- Add food costs, so recommendations can show margin rather than sales.
+- Use an AI model to write staff meal and special recipes, with the leftovers as constraints.
+- Track what gets used or thrown away, so stock goes down as well as up.
+- Share ingredients across suggestions, so two ideas never count the same stock.
+- Add a staff count, so meals are sized to the team, and a login for each kitchen.
+
+## Team
+
+Built by **Algorithm Avengers**: Sohanna Bains, Chase Hudson and Jomana Eid.
+
+**My role:** [TODO: one or two sentences on what you personally did]
+
+## Run it locally
+
+```bash
+python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+It opens at http://localhost:8501. The app uses Vancouver time, which you can change with `KITCHEN_TIMEZONE` in `app.py`.
+
+## Project files
+
+| File | Job |
+|---|---|
+| `app.py` | The whole app |
+| `tomorrows_plate_datasets/` | Menu, components and leftover logs, with their own README |
+| `elio_volpe_dinner_ingredients.csv` | Listed menu prices for the sales figures |
+| `requirements.txt` | Packages |
+
+AI attribution: drafted with the assistance of Claude (Anthropic) and reviewed by the authors.

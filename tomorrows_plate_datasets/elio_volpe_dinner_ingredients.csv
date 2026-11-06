@@ -1,0 +1,180 @@
+dish_id,ingredient,dish_name,section,size,portion,ingredient_category,quantity_per_portion,unit
+D01-R,pizza dough,House baked puccia,antipasti,regular,1 puccia,grain,250,g
+D01-R,sea salt,House baked puccia,antipasti,regular,1 puccia,pantry,2,g
+D01-R,sicilian oregano (dried),House baked puccia,antipasti,regular,1 puccia,herb,1,g
+D01-R,volpi olive oil,House baked puccia,antipasti,regular,1 puccia,oil_fat,20,ml
+D02-R,cerignola olives,Cerignola olives,antipasti,regular,1 bowl,pantry,120,g
+D02-R,chili oil,Cerignola olives,antipasti,regular,1 bowl,oil_fat,15,ml
+D02-R,fennel pollen,Cerignola olives,antipasti,regular,1 bowl,spice,0.5,g
+D02-R,lemon zest,Cerignola olives,antipasti,regular,1 bowl,produce,2,g
+D03-R,oyama fennel salami,Oyama fennel salami,antipasti,regular,1 board,cured_meat,60,g
+D03-R,pickled fennel seeds,Oyama fennel salami,antipasti,regular,1 board,spice,5,g
+D03-R,marinated artichokes,Oyama fennel salami,antipasti,regular,1 board,produce,50,g
+D03-R,crackers,Oyama fennel salami,antipasti,regular,1 board,grain,40,g
+D04-R,lingcod (salted),Baccalà 'mantecato',antipasti,regular,1 plate,seafood,70,g
+D04-R,olive oil,Baccalà 'mantecato',antipasti,regular,1 plate,oil_fat,25,ml
+D04-R,garlic,Baccalà 'mantecato',antipasti,regular,1 plate,produce,3,g
+D04-R,radicchio,Baccalà 'mantecato',antipasti,regular,1 plate,produce,40,g
+D04-R,potato chips,Baccalà 'mantecato',antipasti,regular,1 plate,produce,40,g
+D05-R,scallops,Scallop crudo,antipasti,regular,1 plate,seafood,4,pc
+D05-R,serrano chili,Scallop crudo,antipasti,regular,1 plate,produce,5,g
+D05-R,cherry tomatoes,Scallop crudo,antipasti,regular,1 plate,produce,40,g
+D05-R,buttermilk vinaigrette,Scallop crudo,antipasti,regular,1 plate,dairy,30,ml
+D06-S,"arancini (red kuri squash risotto, breaded)",Arancini,antipasti,small,2 pc,grain,2,pc
+D06-S,mint,Arancini,antipasti,small,2 pc,herb,1,g
+D06-S,saffron aioli,Arancini,antipasti,small,2 pc,egg,25,g
+D06-L,"arancini (red kuri squash risotto, breaded)",Arancini,antipasti,large,4 pc,grain,4,pc
+D06-L,mint,Arancini,antipasti,large,4 pc,herb,2,g
+D06-L,saffron aioli,Arancini,antipasti,large,4 pc,egg,50,g
+D07-R,semolina parker house rolls,Semolina parker house rolls,antipasti,regular,4 rolls,grain,4,pc
+D07-R,sesame seeds,Semolina parker house rolls,antipasti,regular,4 rolls,nut_seed,3,g
+D07-R,pecorino butter,Semolina parker house rolls,antipasti,regular,4 rolls,dairy,40,g
+D08-R,pork and beef meatballs,Meatballs,antipasti,regular,3 meatballs,meat,180,g
+D08-R,arrabbiata,Meatballs,antipasti,regular,3 meatballs,pantry,120,g
+D08-R,warm spices,Meatballs,antipasti,regular,3 meatballs,spice,1,g
+D08-R,sultanas,Meatballs,antipasti,regular,3 meatballs,pantry,10,g
+D08-R,mint,Meatballs,antipasti,regular,3 meatballs,herb,1,g
+D09-R,scallops,Seared scallops,antipasti,regular,1 plate,seafood,4,pc
+D09-R,'nduja vinaigrette,Seared scallops,antipasti,regular,1 plate,cured_meat,30,ml
+D09-R,chili agliata,Seared scallops,antipasti,regular,1 plate,nut_seed,20,g
+D09-R,braised fennel,Seared scallops,antipasti,regular,1 plate,produce,80,g
+D10-R,heirloom tomatoes,Heirloom tomato,insalata_e_verdure,regular,1 plate,produce,250,g
+D10-R,ricotta salata,Heirloom tomato,insalata_e_verdure,regular,1 plate,dairy,30,g
+D10-R,basil,Heirloom tomato,insalata_e_verdure,regular,1 plate,herb,3,g
+D10-R,black pepper,Heirloom tomato,insalata_e_verdure,regular,1 plate,spice,0.5,g
+D10-R,sherry vinaigrette,Heirloom tomato,insalata_e_verdure,regular,1 plate,pantry,30,ml
+D11-R,fall chicories,Fall chicories,insalata_e_verdure,regular,1 plate,produce,120,g
+D11-R,macedonian feta,Fall chicories,insalata_e_verdure,regular,1 plate,dairy,40,g
+D11-R,walnuts,Fall chicories,insalata_e_verdure,regular,1 plate,nut_seed,20,g
+D11-R,roasted pears,Fall chicories,insalata_e_verdure,regular,1 plate,produce,80,g
+D11-R,shallot vinaigrette,Fall chicories,insalata_e_verdure,regular,1 plate,pantry,30,ml
+D12-R,broccolini,Grilled broccolini,insalata_e_verdure,regular,1 plate,produce,180,g
+D12-R,garlic pangrattato,Grilled broccolini,insalata_e_verdure,regular,1 plate,grain,20,g
+D12-R,piquillo vinaigrette,Grilled broccolini,insalata_e_verdure,regular,1 plate,produce,40,ml
+D13-R,pizza dough,Margherita pizza,pizza,regular,1 pizza,grain,250,g
+D13-R,pomodoro,Margherita pizza,pizza,regular,1 pizza,produce,90,g
+D13-R,fior di latte,Margherita pizza,pizza,regular,1 pizza,dairy,100,g
+D13-R,basil,Margherita pizza,pizza,regular,1 pizza,herb,3,g
+D13-R,olive oil,Margherita pizza,pizza,regular,1 pizza,oil_fat,10,ml
+D14-R,pizza dough,Primavera pizza,pizza,regular,1 pizza,grain,250,g
+D14-R,marinated artichokes,Primavera pizza,pizza,regular,1 pizza,produce,50,g
+D14-R,zucchini,Primavera pizza,pizza,regular,1 pizza,produce,60,g
+D14-R,green olives,Primavera pizza,pizza,regular,1 pizza,pantry,30,g
+D14-R,sun-dried tomatoes,Primavera pizza,pizza,regular,1 pizza,pantry,25,g
+D14-R,olive oil,Primavera pizza,pizza,regular,1 pizza,oil_fat,10,ml
+D15-R,pizza dough,Roasted mushroom pizza,pizza,regular,1 pizza,grain,250,g
+D15-R,roasted mushrooms,Roasted mushroom pizza,pizza,regular,1 pizza,produce,100,g
+D15-R,salsa bianca,Roasted mushroom pizza,pizza,regular,1 pizza,dairy,80,g
+D15-R,parsley salsa verde,Roasted mushroom pizza,pizza,regular,1 pizza,herb,20,g
+D16-R,pizza dough,Manila clam pizza,pizza,regular,1 pizza,grain,250,g
+D16-R,manila clams,Manila clam pizza,pizza,regular,1 pizza,seafood,150,g
+D16-R,guanciale,Manila clam pizza,pizza,regular,1 pizza,cured_meat,30,g
+D16-R,salsa bianca,Manila clam pizza,pizza,regular,1 pizza,dairy,80,g
+D16-R,parsley,Manila clam pizza,pizza,regular,1 pizza,herb,3,g
+D16-R,lemon,Manila clam pizza,pizza,regular,1 pizza,produce,10,g
+D17-R,pizza dough,Pepperone pizza,pizza,regular,1 pizza,grain,250,g
+D17-R,pomodoro,Pepperone pizza,pizza,regular,1 pizza,produce,90,g
+D17-R,pepperone,Pepperone pizza,pizza,regular,1 pizza,cured_meat,50,g
+D17-R,hot honey,Pepperone pizza,pizza,regular,1 pizza,sweetener,15,ml
+D17-R,confit garlic,Pepperone pizza,pizza,regular,1 pizza,produce,15,g
+D17-R,sesame seeds,Pepperone pizza,pizza,regular,1 pizza,nut_seed,2,g
+D18-R,pizza dough,Capocollo pizza,pizza,regular,1 pizza,grain,250,g
+D18-R,pomodoro,Capocollo pizza,pizza,regular,1 pizza,produce,90,g
+D18-R,capocollo,Capocollo pizza,pizza,regular,1 pizza,cured_meat,50,g
+D18-R,green olives,Capocollo pizza,pizza,regular,1 pizza,pantry,25,g
+D18-R,roasted peppers,Capocollo pizza,pizza,regular,1 pizza,produce,50,g
+D18-R,red onion,Capocollo pizza,pizza,regular,1 pizza,produce,25,g
+D19-S,spaghetti (dried),Spaghetti alle vongole,pasta_e_risotto,small,small,grain,90,g
+D19-S,manila clams,Spaghetti alle vongole,pasta_e_risotto,small,small,seafood,200,g
+D19-S,bottarga,Spaghetti alle vongole,pasta_e_risotto,small,small,seafood,5,g
+D19-S,pepperoncini,Spaghetti alle vongole,pasta_e_risotto,small,small,spice,1,g
+D19-S,parsley,Spaghetti alle vongole,pasta_e_risotto,small,small,herb,3,g
+D19-S,garlic,Spaghetti alle vongole,pasta_e_risotto,small,small,produce,5,g
+D19-S,white wine,Spaghetti alle vongole,pasta_e_risotto,small,small,alcohol,40,ml
+D19-S,olive oil,Spaghetti alle vongole,pasta_e_risotto,small,small,oil_fat,20,ml
+D19-L,spaghetti (dried),Spaghetti alle vongole,pasta_e_risotto,large,large,grain,135,g
+D19-L,manila clams,Spaghetti alle vongole,pasta_e_risotto,large,large,seafood,300,g
+D19-L,bottarga,Spaghetti alle vongole,pasta_e_risotto,large,large,seafood,7.5,g
+D19-L,pepperoncini,Spaghetti alle vongole,pasta_e_risotto,large,large,spice,1.5,g
+D19-L,parsley,Spaghetti alle vongole,pasta_e_risotto,large,large,herb,4.5,g
+D19-L,garlic,Spaghetti alle vongole,pasta_e_risotto,large,large,produce,7.5,g
+D19-L,white wine,Spaghetti alle vongole,pasta_e_risotto,large,large,alcohol,60,ml
+D19-L,olive oil,Spaghetti alle vongole,pasta_e_risotto,large,large,oil_fat,30,ml
+D20-S,fresh calabreselli,Calabreselli alla vodka,pasta_e_risotto,small,small,grain,110,g
+D20-S,vodka sauce,Calabreselli alla vodka,pasta_e_risotto,small,small,dairy,110,g
+D20-S,whipped ricotta,Calabreselli alla vodka,pasta_e_risotto,small,small,dairy,30,g
+D20-S,peperoncini,Calabreselli alla vodka,pasta_e_risotto,small,small,spice,1,g
+D20-S,garlic pangrattato,Calabreselli alla vodka,pasta_e_risotto,small,small,grain,10,g
+D20-L,fresh calabreselli,Calabreselli alla vodka,pasta_e_risotto,large,large,grain,165,g
+D20-L,vodka sauce,Calabreselli alla vodka,pasta_e_risotto,large,large,dairy,165,g
+D20-L,whipped ricotta,Calabreselli alla vodka,pasta_e_risotto,large,large,dairy,45,g
+D20-L,peperoncini,Calabreselli alla vodka,pasta_e_risotto,large,large,spice,1.5,g
+D20-L,garlic pangrattato,Calabreselli alla vodka,pasta_e_risotto,large,large,grain,15,g
+D21-S,rigatoni (dried),Rigatoni cacio e pepe,pasta_e_risotto,small,small,grain,90,g
+D21-S,10 year aged cheddar,Rigatoni cacio e pepe,pasta_e_risotto,small,small,dairy,50,g
+D21-S,black pepper,Rigatoni cacio e pepe,pasta_e_risotto,small,small,spice,2,g
+D21-S,butter,Rigatoni cacio e pepe,pasta_e_risotto,small,small,dairy,15,g
+D21-S,roasted jalapeño,Rigatoni cacio e pepe,pasta_e_risotto,small,small,produce,20,g
+D21-S,scallion,Rigatoni cacio e pepe,pasta_e_risotto,small,small,produce,8,g
+D21-L,rigatoni (dried),Rigatoni cacio e pepe,pasta_e_risotto,large,large,grain,135,g
+D21-L,10 year aged cheddar,Rigatoni cacio e pepe,pasta_e_risotto,large,large,dairy,75,g
+D21-L,black pepper,Rigatoni cacio e pepe,pasta_e_risotto,large,large,spice,3,g
+D21-L,butter,Rigatoni cacio e pepe,pasta_e_risotto,large,large,dairy,22.5,g
+D21-L,roasted jalapeño,Rigatoni cacio e pepe,pasta_e_risotto,large,large,produce,30,g
+D21-L,scallion,Rigatoni cacio e pepe,pasta_e_risotto,large,large,produce,12,g
+D22-S,par-cooked risotto,"Risotto, lobster tail",pasta_e_risotto,small,small,grain,180,g
+D22-S,nova scotia lobster tail,"Risotto, lobster tail",pasta_e_risotto,small,small,seafood,1,pc
+D22-S,red kuri squash (roasted),"Risotto, lobster tail",pasta_e_risotto,small,small,produce,60,g
+D22-S,saffron shellfish stock,"Risotto, lobster tail",pasta_e_risotto,small,small,seafood,150,ml
+D22-S,butter,"Risotto, lobster tail",pasta_e_risotto,small,small,dairy,15,g
+D22-L,par-cooked risotto,"Risotto, lobster tail",pasta_e_risotto,large,large,grain,288,g
+D22-L,nova scotia lobster tail,"Risotto, lobster tail",pasta_e_risotto,large,large,seafood,2,pc
+D22-L,red kuri squash (roasted),"Risotto, lobster tail",pasta_e_risotto,large,large,produce,96,g
+D22-L,saffron shellfish stock,"Risotto, lobster tail",pasta_e_risotto,large,large,seafood,240,ml
+D22-L,butter,"Risotto, lobster tail",pasta_e_risotto,large,large,dairy,24,g
+D23-R,fresh stracci,"Stracci, lamb ragu",pasta_e_risotto,regular,1 plate,grain,140,g
+D23-R,lamb ragu,"Stracci, lamb ragu",pasta_e_risotto,regular,1 plate,meat,160,g
+D23-R,taggiasche olives,"Stracci, lamb ragu",pasta_e_risotto,regular,1 plate,pantry,15,g
+D23-R,pine nuts,"Stracci, lamb ragu",pasta_e_risotto,regular,1 plate,nut_seed,8,g
+D23-R,pecorino canestrato,"Stracci, lamb ragu",pasta_e_risotto,regular,1 plate,dairy,15,g
+D24-R,iberico pork chop,Iberico pork chop,carne,regular,1 chop,meat,1,pc
+D24-R,dandelion greens,Iberico pork chop,carne,regular,1 chop,produce,40,g
+D24-R,guanciale,Iberico pork chop,carne,regular,1 chop,cured_meat,30,g
+D24-R,apple,Iberico pork chop,carne,regular,1 chop,produce,60,g
+D24-R,fennel,Iberico pork chop,carne,regular,1 chop,produce,40,g
+D25-R,"half chicken, deboned",Pollo al mattone,carne,regular,half chicken,poultry,1,portion
+D25-R,artichoke tapenade,Pollo al mattone,carne,regular,half chicken,produce,40,g
+D25-R,chicories,Pollo al mattone,carne,regular,half chicken,produce,80,g
+D25-R,salsa nera,Pollo al mattone,carne,regular,half chicken,pantry,20,g
+D26-R,wagyu zabuton,Wagyu zabuton steak,carne,regular,1 steak,meat,200,g
+D26-R,king oyster and maitake,Wagyu zabuton steak,carne,regular,1 steak,produce,100,g
+D26-R,pickled chanterelles,Wagyu zabuton steak,carne,regular,1 steak,produce,25,g
+D26-R,fresh oregano,Wagyu zabuton steak,carne,regular,1 steak,herb,2,g
+D27-R,braised octopus,Chargrilled octopus,mare,regular,1 plate,seafood,1,portion
+D27-R,pomegranate seeds,Chargrilled octopus,mare,regular,1 plate,produce,20,g
+D27-R,saffron couscous,Chargrilled octopus,mare,regular,1 plate,grain,100,g
+D27-R,ceci,Chargrilled octopus,mare,regular,1 plate,produce,60,g
+D27-R,mint,Chargrilled octopus,mare,regular,1 plate,herb,2,g
+D27-R,citrus segments,Chargrilled octopus,mare,regular,1 plate,produce,40,g
+D28-R,whole branzino,Whole branzino,mare,regular,1 fish,seafood,1,pc
+D28-R,fennel,Whole branzino,mare,regular,1 fish,produce,60,g
+D28-R,caper salmoriglio,Whole branzino,mare,regular,1 fish,pantry,40,ml
+D29-R,bc rockfish fillet,BC rockfish,mare,regular,1 plate,seafood,1,portion
+D29-R,purgatory beans,BC rockfish,mare,regular,1 plate,produce,150,g
+D29-R,marinated artichokes,BC rockfish,mare,regular,1 plate,produce,50,g
+D29-R,spinach,BC rockfish,mare,regular,1 plate,produce,50,g
+D29-R,volpi olive oil,BC rockfish,mare,regular,1 plate,oil_fat,10,ml
+D30-R,tiramisu cheesecake,Tiramisu cheesecake,dolce,regular,1 slice,dairy,1,slice
+D30-R,cocoa,Tiramisu cheesecake,dolce,regular,1 slice,pantry,2,g
+D30-R,espresso,Tiramisu cheesecake,dolce,regular,1 slice,pantry,10,ml
+D31-R,chocolate torta,Torta al cioccolato fondente,dolce,regular,1 slice,pantry,1,slice
+D31-R,muscovado crema,Torta al cioccolato fondente,dolce,regular,1 slice,dairy,40,ml
+D32-R,cassis and blackberry semifreddo,Cassis and blackberry semifreddo,dolce,regular,1 slice,dairy,1,slice
+D32-R,marsala crema,Cassis and blackberry semifreddo,dolce,regular,1 slice,egg,40,ml
+D33-R,spiced apple torta,Spiced apple torta,dolce,regular,1 slice,produce,1,slice
+D33-R,caramel,Spiced apple torta,dolce,regular,1 slice,sweetener,30,ml
+D34-R,"gelato, daily flavour",Gelato (daily flavours),gelato,scoop,1 scoop,dairy,1,scoop
+D35-R,vanilla gelato,Sole Mio,gelato,regular,1 coupe,dairy,2,scoop
+D35-R,volpi olive oil,Sole Mio,gelato,regular,1 coupe,oil_fat,10,ml
+D35-R,amaro syrup,Sole Mio,gelato,regular,1 coupe,alcohol,15,ml
+D35-R,honeycomb,Sole Mio,gelato,regular,1 coupe,sweetener,15,g

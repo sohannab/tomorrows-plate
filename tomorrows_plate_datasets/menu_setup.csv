@@ -1,0 +1,41 @@
+dish_id,base_dish_id,dish_name,size,section,service_style,leftover_logged_as
+D01-R,D01,House baked puccia,regular,antipasti,made_to_order,components
+D02-R,D02,Cerignola olives,regular,antipasti,assembled_cold,components
+D03-R,D03,Oyama fennel salami,regular,antipasti,assembled_cold,components
+D04-R,D04,Baccalà 'mantecato',regular,antipasti,assembled_cold,components
+D05-R,D05,Scallop crudo,regular,antipasti,assembled_cold,components
+D06-S,D06,Arancini,small,antipasti,made_to_order,components
+D06-L,D06,Arancini,large,antipasti,made_to_order,components
+D07-R,D07,Semolina parker house rolls,regular,antipasti,made_ahead,finished_portions
+D08-R,D08,Meatballs,regular,antipasti,made_ahead,finished_portions
+D09-R,D09,Seared scallops,regular,antipasti,made_to_order,components
+D10-R,D10,Heirloom tomato,regular,insalata_e_verdure,assembled_cold,components
+D11-R,D11,Fall chicories,regular,insalata_e_verdure,assembled_cold,components
+D12-R,D12,Grilled broccolini,regular,insalata_e_verdure,made_to_order,components
+D13-R,D13,Margherita pizza,regular,pizza,made_to_order,components
+D14-R,D14,Primavera pizza,regular,pizza,made_to_order,components
+D15-R,D15,Roasted mushroom pizza,regular,pizza,made_to_order,components
+D16-R,D16,Manila clam pizza,regular,pizza,made_to_order,components
+D17-R,D17,Pepperone pizza,regular,pizza,made_to_order,components
+D18-R,D18,Capocollo pizza,regular,pizza,made_to_order,components
+D19-S,D19,Spaghetti alle vongole,small,pasta_e_risotto,made_to_order,components
+D19-L,D19,Spaghetti alle vongole,large,pasta_e_risotto,made_to_order,components
+D20-S,D20,Calabreselli alla vodka,small,pasta_e_risotto,made_to_order,components
+D20-L,D20,Calabreselli alla vodka,large,pasta_e_risotto,made_to_order,components
+D21-S,D21,Rigatoni cacio e pepe,small,pasta_e_risotto,made_to_order,components
+D21-L,D21,Rigatoni cacio e pepe,large,pasta_e_risotto,made_to_order,components
+D22-S,D22,"Risotto, lobster tail",small,pasta_e_risotto,made_to_order,components
+D22-L,D22,"Risotto, lobster tail",large,pasta_e_risotto,made_to_order,components
+D23-R,D23,"Stracci, lamb ragu",regular,pasta_e_risotto,made_to_order,components
+D24-R,D24,Iberico pork chop,regular,carne,made_to_order,components
+D25-R,D25,Pollo al mattone,regular,carne,made_to_order,components
+D26-R,D26,Wagyu zabuton steak,regular,carne,made_to_order,components
+D27-R,D27,Chargrilled octopus,regular,mare,made_to_order,components
+D28-R,D28,Whole branzino,regular,mare,made_to_order,components
+D29-R,D29,BC rockfish,regular,mare,made_to_order,components
+D30-R,D30,Tiramisu cheesecake,regular,dolce,made_ahead,finished_portions
+D31-R,D31,Torta al cioccolato fondente,regular,dolce,made_ahead,finished_portions
+D32-R,D32,Cassis and blackberry semifreddo,regular,dolce,made_ahead,finished_portions
+D33-R,D33,Spiced apple torta,regular,dolce,made_ahead,finished_portions
+D34-R,D34,Gelato (daily flavours),scoop,gelato,made_ahead,finished_portions
+D35-R,D35,Sole Mio,regular,gelato,made_ahead,finished_portions
