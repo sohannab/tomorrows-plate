@@ -1,0 +1,6 @@
+[theme]
+base = "light"
+primaryColor = "#8A4B2D"            # chestnut: buttons, sliders, active tab, links
+backgroundColor = "#FAF3EA"         # cream: page base
+secondaryBackgroundColor = "#EBD9C6" # latte: sidebar, tables, input boxes
+textColor = "#3E2A20"               # espresso: text

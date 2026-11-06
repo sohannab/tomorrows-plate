@@ -1,0 +1,18 @@
+# Only the files the live app needs go to GitHub. Everything else stays on this computer.
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+!app.py
+!elio_volpe_dinner_ingredients.csv
+!.streamlit/
+!.streamlit/config.toml
+!assets/
+!assets/kitchen_pattern.jpg
+!tomorrows_plate_datasets/
+!tomorrows_plate_datasets/README.md
+!tomorrows_plate_datasets/*.csv
+
+# Created by the Log tab while the app runs
+tomorrows_plate_datasets/leftover_log.csv
