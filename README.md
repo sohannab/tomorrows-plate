@@ -69,7 +69,7 @@ Built by **Algorithm Avengers**: Sohanna Bains, Chase Hudson and Jomana Eid.
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app_updated.py
 ```
 
 It opens at http://localhost:8501. The app uses Vancouver time, which you can change with `KITCHEN_TIMEZONE` in `app.py`.
