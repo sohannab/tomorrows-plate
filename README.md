@@ -42,25 +42,6 @@ Python, pandas and Streamlit, with custom HTML and CSS for the cards and the lef
 - **Sales are not profit.** The figures use listed menu prices. The dataset has no food costs, so the app cannot show margins or waste saved.
 - **Recommendations are rule-based.** They match leftovers to existing menu dishes. No AI model runs in this version.
 
-## How the project evolved
-
-Tomorrow's Plate started as a prototype by Algorithm Avengers: a planning model that forecast demand using patterns from the Food Demand Forecasting dataset on Kaggle, then optimized prep quantities. That model is not part of this version. This app focuses on the day-to-day tool a cook would use, built around a more detailed component-level dataset.
-
-## What I would build next
-
-- Save logs to a database, so entries are kept permanently. They currently live in a file that the free host wipes on restart.
-- Replace the simulated history with real close logs.
-- Add food costs, so recommendations can show margin rather than sales.
-- Use an AI model to write staff meal and special recipes, with the leftovers as constraints.
-- Track what gets used or thrown away, so stock goes down as well as up.
-- Share ingredients across suggestions, so two ideas never count the same stock.
-- Add a staff count, so meals are sized to the team, and a login for each kitchen.
-
-## Team
-
-Built by **Algorithm Avengers**: Sohanna Bains, Chase Hudson and Jomana Eid.
-
-**My role:** [TODO: one or two sentences on what you personally did]
 
 ## Run it locally
 
