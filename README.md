@@ -4,8 +4,6 @@
 
 **Try the live app: https://tomorrows-plate-bnjzkgkx7twxp5r3ue9nds.streamlit.app/**
 
-[TODO: add a screenshot of the Home tab here, for example `![Home dashboard](assets/home.png)`]
-
 ## The problem
 
 Restaurants prep ahead, so they close most nights with sauces, doughs and cooked items left over. Cooks usually know what is sitting in the walk-in, but that knowledge rarely turns into a decision. Items expire, and the same over-prep happens again the following week.
