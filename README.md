@@ -2,7 +2,7 @@
 
 **Turn tonight's leftovers into tomorrow's plan.** A kitchen dashboard that shows what is about to go bad, what to run as a special, what to feed the staff, and what to stop over-prepping.
 
-**[Try the live app]([TODO: paste your Streamlit link])**
+**Try the live app: https://tomorrows-plate-bnjzkgkx7twxp5r3ue9nds.streamlit.app/**
 
 [TODO: add a screenshot of the Home tab here, for example `![Home dashboard](assets/home.png)`]
 
